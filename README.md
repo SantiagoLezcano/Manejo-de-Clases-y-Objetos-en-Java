@@ -11,5 +11,5 @@ Y se implementa 3 nuevas clases,
 -LIBRO
 
 El metodo "Main" se programa de tal forma que, la persona que ejecute le codigo
-vea el que todas las clases han sidos creadas correctamente, todo esto
+vea que todas las clases han sidos creadas correctamente, todo esto
 por medio del ToString()
