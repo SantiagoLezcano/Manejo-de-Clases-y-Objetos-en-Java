@@ -32,6 +32,10 @@ public class BankAccount {
                 '}';
     }
 
+    /**
+     * se verifica el estado de la cuenta que anda en memoria en el momento
+     * @param status
+     */
     public void statusAccount(boolean status) {
         if (status) System.out.println("The account is active");
         else System.out.println("Account is inactive");
