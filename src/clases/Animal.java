@@ -1,12 +1,12 @@
 package clases;
 
 import java.util.ArrayList;
-
+/**
+ * Representa un animal con su nombre, numero de patas, tamaño y comportamiento
+ * @Author: SANTIAGO
+ */
 public class Animal {
-    /**
-     * Representa un animal con su nombre, numero de patas, tamaño y comportamiento
-     * @Author: SANTIAGO
-     */
+
     public String name;
     public short numberOfLegs;
     public String size;

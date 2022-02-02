@@ -1,10 +1,10 @@
 package clases;
-
+/**
+ * Representa un computador  con sus caracteristicas
+ * @Author: SANTIAGO
+ */
 public class Computer {
-    /**
-     * Representa un computador  con sus caracteristicas
-     * @Author: SANTIAGO
-     */
+
     public float inches; //pulgadas
     public String brand; //marca del computador
     private String serial;

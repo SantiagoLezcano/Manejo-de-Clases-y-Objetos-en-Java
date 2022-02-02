@@ -5,6 +5,9 @@ import java.util.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
+/**
+ * Prueba de todas las clases
+ */
 public class Main {
     public static void main(String[] args) throws ParseException {
         personTest("26/11/1999");
@@ -44,7 +47,7 @@ public class Main {
      */
     public static void bankAccountTest(){
         System.out.println("BANK ACCOUNT TEST");
-        Bank_Account bank_account = new Bank_Account(2121321234,true);
+        BankAccount bank_account = new BankAccount(2121321234,true);
         bank_account.statusAccount(bank_account.activated);
         System.out.println(bank_account.toString());
     }

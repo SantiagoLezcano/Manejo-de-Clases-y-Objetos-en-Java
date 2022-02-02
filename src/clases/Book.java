@@ -1,10 +1,10 @@
 package clases;
-
+/**
+ * Esta clase representa un libro
+ * @author SANTIAGO
+ */
 public class Book {
-    /**
-     * Esta clase representa un libro
-     * @author SANTIAGO
-     */
+
     public String name;
     private String ISBN;//International Standard Book Number - Número Internacional Normalizado de Libros
     public short numberOfPages;
