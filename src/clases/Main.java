@@ -74,6 +74,7 @@ public class Main {
         System.out.println("COMPUTER TEST");
         Computer computer= new Computer(15,"Asus","123ASJ23","Ryzen 7","DDR4", (short) 16,false);
         System.out.println(computer.toString());
+        computer.sizeComputer(computer);
     }
     /**
      * Prueba de Libro
@@ -82,5 +83,6 @@ public class Main {
         System.out.println("BOOK TEST");
         Book book = new Book("Harry Potter","12AB23",(short)1300,"j.k. Rowling","Universal");
         System.out.println(book.toString());
+        System.out.println(book.nameOfBook(book));
     }
 }

@@ -1,4 +1,7 @@
 package clases;
+
+import jdk.swing.interop.SwingInterOpUtils;
+
 /**
  * Representa un computador  con sus caracteristicas
  * @Author: SANTIAGO
@@ -62,5 +65,14 @@ public class Computer {
                 ", ramSize=" + ramSize +
                 ", keypad=" + keypad +
                 '}';
+    }
+    public void sizeComputer(Computer computer){
+        if(computer.inches<=13){
+            System.out.println("Is a small computer");
+        }else if(computer.inches>13 && computer.inches<=14){
+            System.out.println("is a medium-sized computer");
+        }else if(computer.inches>14){
+            System.out.println("is a large computer");
+        }
     }
 }

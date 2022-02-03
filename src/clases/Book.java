@@ -56,4 +56,14 @@ public class Book {
                 ", published='" + published + '\'' +
                 '}';
     }
+
+    /**
+     * Si queremos saber el nombre del libro se ejcuta este metodo
+     * @param book
+     * @return
+     */
+    public String nameOfBook(Book book){
+        name=book.name;
+        return name;
+    }
 }
