@@ -13,6 +13,14 @@ public class Animal {
     public ArrayList<String> typeAnimals;//vertebrados, invertebrados,antropodos...etc
     private String behavior;//Agresivos,sociables,solitarios.
 
+    /**
+     * Constructor con parametros
+     * @param name
+     * @param numberOfLegs
+     * @param size
+     * @param typeAnimals
+     * @param behavior
+     */
     public Animal(String name, short numberOfLegs, String size, ArrayList<String> typeAnimals, String behavior) {
         this.name = name;
         this.numberOfLegs = numberOfLegs;

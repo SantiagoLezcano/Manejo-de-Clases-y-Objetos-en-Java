@@ -8,12 +8,21 @@ public class BankAccount {
     private int accountNumber;
     protected boolean activated;
 
+    /**
+     * Constructor con parametros
+     * @param accountNumber
+     * @param activated
+     */
     public BankAccount(int accountNumber, boolean activated) {
         this.accountNumber = accountNumber;
         this.activated = activated;
     }
 
 
+    /**
+     * Getter an Setter
+     * @return
+     */
     public int getAccountNumber() {
         return accountNumber;
     }
