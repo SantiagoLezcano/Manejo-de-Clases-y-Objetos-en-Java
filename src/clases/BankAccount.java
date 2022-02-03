@@ -4,7 +4,9 @@ package clases;
  * @Author: SANTIAGO
  */
 public class BankAccount {
-
+    /**
+     * Atributos
+     */
     private int accountNumber;
     protected boolean activated;
 
@@ -32,7 +34,10 @@ public class BankAccount {
     }
 
 
-
+    /**
+     * To string
+     * @return
+     */
     @Override
     public String toString() {
         return "BankAccount{" +
@@ -45,8 +50,8 @@ public class BankAccount {
      * se verifica el estado de la cuenta que anda en memoria en el momento
      * @param status
      */
-    public void statusAccount(boolean status) {
-        if (status) System.out.println("The account is active");
+    public void statusAccount(BankAccount bankAccount) {
+        if (bankAccount.activated) System.out.println("The account is active");
         else System.out.println("Account is inactive");
     }
 

@@ -6,7 +6,9 @@ import java.util.ArrayList;
  * @Author: SANTIAGO
  */
 public class Animal {
-
+    /**
+     * Atributos
+     */
     public String name;
     public short numberOfLegs;
     public String size;
@@ -29,6 +31,10 @@ public class Animal {
         this.behavior = behavior;
     }
 
+    /**
+     * Getters and Setters
+     * @return
+     */
     public String getBehavior() {
         return behavior;
     }
@@ -37,6 +43,10 @@ public class Animal {
         this.behavior = behavior;
     }
 
+    /**
+     * Metodo to String
+     * @return
+     */
     @Override
     public String toString() {
         return "Animal{" +
@@ -46,6 +56,16 @@ public class Animal {
                 ", typeAnimals=" + typeAnimals +
                 ", behavior='" + behavior + '\'' +
                 '}';
+    }
+
+    /**
+     * Este metodo da el comportamiento de acuerdo al animal que le enviemos
+     * @param animal
+     * @return
+     */
+    public String animalBehavior(Animal animal){
+        behavior=animal.getBehavior();
+        return behavior;
     }
 
 }

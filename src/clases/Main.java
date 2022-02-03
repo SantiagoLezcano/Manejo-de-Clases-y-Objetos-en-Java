@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 
 /**
  * Prueba de todas las clases
+ * METODO MAIN
  */
 public class Main {
     public static void main(String[] args) throws ParseException {
@@ -17,10 +18,10 @@ public class Main {
         computerTest();
         bookTest();
     }
+
     /**
      * Prueba de persona
      */
-
     public static void personTest(String dateAss) throws ParseException {
         SimpleDateFormat dsf= new SimpleDateFormat("dd/MM/yyyy");
         String dateAssitant=dateAss;
@@ -47,9 +48,9 @@ public class Main {
      */
     public static void bankAccountTest(){
         System.out.println("BANK ACCOUNT TEST");
-        BankAccount bank_account = new BankAccount(2121321234,true);
-        bank_account.statusAccount(bank_account.activated);
-        System.out.println(bank_account.toString());
+        BankAccount bankAccount = new BankAccount(2121321234,true);
+        bankAccount.statusAccount(bankAccount);
+        System.out.println(bankAccount.toString());
     }
     /**
      * Prueba de Animal
@@ -64,6 +65,7 @@ public class Main {
         typeAnimals.add("Mollusks");
         Animal animal= new Animal("Leon", (short) 4,"grande",typeAnimals,"Aggressive");
         System.out.println(animal.toString());
+        System.out.println(animal.animalBehavior(animal));
     }
     /**
      * Prueba Computador

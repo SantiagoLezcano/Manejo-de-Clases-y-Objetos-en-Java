@@ -9,6 +9,9 @@ import java.text.SimpleDateFormat;
  * @Author: SANTIAGO
  */
 public class Person {
+    /**
+     * Atributos
+     */
     private String identificationDocument;
     public String name;
     public String lastName1;
